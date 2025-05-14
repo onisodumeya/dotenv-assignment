@@ -1,0 +1,3 @@
+Since the .env file is added to the git ignore and not pushed to the github repo, we create a .env.example file containing the variable names but without the values, that way when another developer pulls our code from the repo they can create their own .env file using the variable names in the .env.example file. 
+
+Note: I think the file can be name something different as long as it is clear enough for another developer to understand.
